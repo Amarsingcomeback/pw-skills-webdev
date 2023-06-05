@@ -1,0 +1,9 @@
+1.
+  q. list of the features of HTML5
+
+
+    Semantic Elements: HTML5 introduced several new semantic elements, such as <header>, <nav>, <section>, <article>, <aside>, <footer>, and more. These elements provide better structure and meaning to web content.
+
+    Multimedia Support: HTML5 includes native support for embedding multimedia content, eliminating the need for third-party plugins like Adobe Flash. The <video> and <audio> elements allow easy integration of video and audio content with built-in controls.
+
+    Canvas Element: The <canvas> element provides a drawing area on the web page where you can use JavaScript to render graphics, animations, and other visual effects dynamically.

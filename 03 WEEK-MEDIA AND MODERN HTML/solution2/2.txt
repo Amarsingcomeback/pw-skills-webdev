@@ -1,0 +1,12 @@
+2. 
+what is html entities ?
+
+  HTML entities are special codes or characters that are used to represent reserved characters, symbols, or special characters in HTML markup. These entities allow you to display characters that have a specific meaning in HTML.
+
+list of the entities example :-
+ &lt; - less-than symbol (<)
+ &amp; - ampersand (&)
+ &gt; - greater-than symbol (>)
+ &quot; - double quotation mark (")
+ &apos; - single quotation mark (')
+ &nbsp; - non-breaking space

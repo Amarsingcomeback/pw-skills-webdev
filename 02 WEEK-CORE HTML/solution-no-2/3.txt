@@ -1,0 +1,16 @@
+3. Write a short note on tags, elements, and attributes along with relevant examples ?
+tags :
+    tags mainly used defind the webpages. html tags are divided three tags open tags , closing tags , self colsing tags
+
+ex :- <html></html>, <body></body> , <img src=""/>, etc..
+
+elements :-
+    html elements are the buliding bolcks in the web pages.
+    ex :- <p>I am happy to learn Web Development.</p>. In this example, the opening tag is <p> and the closing tag is </p>. The content along with the tags is the paragraph element.
+Attributes:
+
+In HTML, attributes provide additional information about an element. They are usually included in the opening tag of the element.
+
+Example: <a href="https://pwskills.com/" >Go To pw skills</a>. In this example, the a element is used to create a hyperlink. The href attribute specifies the URL that the hyperlink points to. The attribute values are enclosed in quotes.
+
+

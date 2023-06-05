@@ -1,0 +1,14 @@
+3. 
+  What is html  accessibility ?
+
+  ans :
+
+     HTML accessibility, in simple terms, means designing and building websites in a way that makes them easy to use and understand for all people, including those with disabilities. It involves creating web content that can be accessed and interacted with by individuals with different abilities, such as those with visual impairments.
+     
+    list of the divices  :- 
+
+     Screen Magnifiers: Software or hardware devices that enlarge the content displayed on the screen, assisting individuals with low vision or visual impairments in reading and interacting with the content.
+
+     Braille Displays: Output devices that convert digital text into Braille characters, allowing individuals with visual impairments to read the content through touch.
+
+     Hearing Aids: Electronic devices worn in or behind the ear to amplify and enhance sound for individuals with hearing impairments.
