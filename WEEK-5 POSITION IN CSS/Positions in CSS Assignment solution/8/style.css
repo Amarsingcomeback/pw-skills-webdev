@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.section-1{
+    background-color: aqua;
+    font-size: 17px;
+    min-height: 100vh;
+    z-index: 1;
+}
+.modal{
+    background-color: #fff;
+    width: 700px;
+    height: 400px;
+    border: 0;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 23%;
+    z-index: 2;
+  }
+  h1,p{
+    padding: 4px;
+    margin-bottom: 5px;
+  }
+  button{
+    padding: 6px 10px 6px 10px;
+    background-color: blueviolet;
+    color: #fff;
+  }
+  h3{
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+  }
+ .lb-1,.lb-2,.lb-3{
+  padding: 5px;
+  margin: 10px;
+  font-size: 18px;
+ }
+ .lb-1 input{
+  width: 650px;
+  height: 40px;
+ }
+ .lb-2 input{
+  width: 320px;
+  height: 40px;
+ }
+ input{
+  border: 1px solid white;
+ }

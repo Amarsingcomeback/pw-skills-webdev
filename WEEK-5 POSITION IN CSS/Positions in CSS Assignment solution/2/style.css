@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 95%;
+    height: 60vh;
+    background-color: black;
+    color: aqua;
+    margin: 10% auto;
+    border-radius: 18px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
+}
+
+.section-1{
+    float: left;
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+    margin: 5% auto;
+}
+
+.section-1 h1{
+    font-size: 35px;
+    padding: 8px;
+    margin-left: 15px;
+}
+
+.section-1 p{
+    padding: 8px;
+    margin-left: 15px;
+}
+.section-1 button{
+    padding: 6px;
+    margin-left: 25px;
+    margin-top: 8px;
+    background-color: blueviolet;
+    color: aqua;
+}
+.section-2{
+    float: right;
+    /* border: 1px solid black; */
+}
+.section-2 img{
+    width: 394px;
+    margin-right: 90px;
+}

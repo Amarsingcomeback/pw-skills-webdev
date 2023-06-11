@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.section-1{
+    background-color: aqua;
+    font-size: 17px;
+    min-height: 100vh;
+    z-index: 1;
+}
+.modal {
+    background-color: #fff;
+    width: 700px;
+    border: 0;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 23%;
+    z-index: 2;
+  }
+  h1,p{
+    padding: 4px;
+    margin-bottom: 5px;
+  }
+  .tnc{
+    height: 420px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+  }
+  button{
+    padding: 6px 10px 6px 10px;
+    background-color: blueviolet;
+    color: #fff;
+  }
+  h3{
+    text-align: center;
+    font-size: 24px;
+    padding: 3px;
+  }

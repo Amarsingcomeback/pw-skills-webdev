@@ -4,5 +4,58 @@
     box-sizing: border-box;
     outline: none;
     list-style: none;
+    font-family: sans-serif;
 
+}
+body{
+    background: linear-gradient(45deg, red, blue);
+}
+.nav-bar{
+    background-color: #eef5f5;
+    padding: 10px;
+    
+}
+.li-class{
+    display: inline;
+    font-size: 18px;
+    padding: 10px;
+}
+.ef-hov{
+    text-decoration: none;
+    color: #5e5c5c;
+    
+}
+.content{
+    
+    height: 100vh;
+}
+.lang-image img{
+    width: 200px;
+}
+article h1{
+    font-size: 30px;
+    margin-bottom: 4PX;
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+section{
+    padding: 30px;
+    margin-bottom: 40px;
+    align-items: center;
+    
+}
+.chart-bot{
+    position: fixed;
+    left: 10px;
+    bottom: 4px;
+}
+.chart-bot img{
+    width: 70px;
 }

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(46, 41, 41);
+}
+body{
+    overflow: scroll;
+}
+.container{
+   text-align: center;
+   width: 1000px;
+   margin: 0 auto;
+   
+   
+}
+.btn{
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(223, 88, 88);
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.wv{
+  font-size: 22px;
+  color: darkgoldenrod;
+  text-align: center;
+}
+p{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-size: 18px;
+    color: aqua;
+    text-align: justify;
+}
+.container img{
+    width: 700px;
+}
