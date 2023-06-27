@@ -41,8 +41,12 @@ p{
     color: aliceblue;
     font-size: 16px;
 }
-.card-3:hover .card-1{
-
-    /* dout problem not fixed */
-  background-color: black;
+.card-1:hover{
+  z-index: 1;
+}
+.card-2:hover{
+  z-index: 1;
+}
+.card-3:hover{
+  z-index: 1;
 }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blur imgage to revel</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            max-width: 1400px;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .img{
+            filter: blur(1.5rem);
+            transition: all 0.8s ease-in-out;
+        }
+        .img img{
+            width: 100%;
+        }
+        .img:hover{
+            transform: scale(1.2,1.2);
+            filter: none;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="https://t4.ftcdn.net/jpg/02/91/48/15/360_F_291481542_w9axaVED3BelU1NKAvxIYbm4NFDSwg6i.jpg" alt="">
+        </div>
+</body>
+</html>
