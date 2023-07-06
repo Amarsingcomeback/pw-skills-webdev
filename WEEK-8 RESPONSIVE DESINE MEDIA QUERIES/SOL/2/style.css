@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: sans-serif;
+}
+/* styleling nav bar */
+.fa-bars{
+    display: none;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+nav .logo p{
+    font-size: 1rem;
+    font-weight: 900;
+    color: #0000ff;
+}
+.center span{
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: aqua;
+}
+.right button{
+   font-size: 1rem;
+   font-weight: 600;
+   padding: 0.5rem 2rem;
+   outline: none;
+   border: none;
+   background-color: #0000ff;
+   color: aqua;
+   border-radius: 0.5rem;
+}
+.nav-section{
+    background-color: #270230;
+
+}
+
+@media screen and (max-width: 776px) {
+    .center{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .fa-bars{
+        display: inline;
+        color: wheat;
+    }
+    nav{
+        height: 15vh;
+        font-size: 2rem;
+    }
+    nav .logo p{
+        font-size: 1.6rem;
+    }
+}
+
+/* styling heho section */
+.hero-section{
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 2rem;
+}
+.hero-section .box-left{
+    width: 50%;
+    margin-top: 6rem;
+}
+.hero-section .box-right{
+    width: 50%;
+}
+.hero-section .box-right img{
+    width: 65%;
+}
+.img img {
+    width: 8rem;
+}
+.bold{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.box-left h1{
+   font-size: 3rem;
+   color: #4b4b9b;
+   margin-bottom: 1.3rem;
+}
+.brand{
+    font-weight: bold;
+    color: #4b4b9b;
+    margin-bottom: 1rem;
+}
+.img{
+    margin-bottom: 2rem;
+}
+.para{
+    font-weight: 500;
+    color: rgb(30, 18, 37);
+}
+.box-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 772px) {
+    .hero-section{
+        flex-direction: column;
+        margin-top: 5rem;
+        width: 180%;
+        justify-content: center;
+
+    }
+    /* .box-right{
+        height: 100px;
+    }
+    */
+}
+@media screen and (max-width: 577px) {
+    .hero-section{
+        flex-direction: column;
+        margin-top: 10rem;
+        width: 180%;
+        justify-content: center;
+    }
+
+   
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .fa-bars{
+    display: none;
+}
+@media screen and (max-width: 776px) {
+    .center{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .fa-bars{
+        display: inline;
+        color: wheat;
+    }
+    nav{
+        height: 15vh;
+        font-size: 2rem;
+    }
+    nav .logo p{
+        font-size: 1.6rem;
+    }
+}
+
+    </style>
+  </head>
+  <body>
+    <!-- this is the nav container -->
+    <div class="nav-section">
+        <nav>
+            <div class="logo">
+                <p>LO</p>
+                <p>GO</p>
+            </div>
+            <div class="center"><span>Home</span><span>Blog</span><span>About</span><span>Contact</span></div>
+            <i class="fa-solid fa-bars"></i>
+            <div class="right"><button>Login</button></div>     
+        </nav>
+    </div>
+
+    <!-- creationg hero section -->
+
+    <div class="hero-section">
+        <div class="box-left">
+          <p class="bold">Say Hi To</p>
+          <h1>One Card</h1>
+          <p class="brand">Co-Branded Card Issuers :</p>
+          <div class="img">
+            <img src="https://www.sbmbank.co.in/img/logo.png" alt="">&nbsp;&nbsp;<img src="https://www.csb.co.in/sites/all/themes/csb/images/CSB_Bank_logo.jpg" alt="">&nbsp;&nbsp;<img src="https://www.southindianbank.com/images/logo.png" alt=""><br><br>
+            <img src="https://www.federalbank.co.in/o/federal-bank-theme/images/logo.png" alt="">&nbsp;&nbsp;<img src="https://www.bobfinancial.com/images/logo1.jpg" alt="">
+          </div>
+          <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum iste quibusdam commodi aspernatur harum, hic accusantium repellat similique praesentium sunt debitis perspiciatis doloribus earum quaerat ipsam veritatis nam enim distinctio!</p>
+        </div>
+        <div class="box-right">
+            <img src="https://cdn.shopclues.com/images/thumbnails/23452/320/320/1211438515580.jpg" alt="">
+        </div>
+    </div>
+  </body>
+</html>

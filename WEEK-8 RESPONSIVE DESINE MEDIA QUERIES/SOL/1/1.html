@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .fa-bars{
+    display: none;
+}
+@media screen and (max-width: 776px) {
+    .center{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .fa-bars{
+        display: inline;
+        color: wheat;
+    }
+    nav{
+        height: 15vh;
+        font-size: 2rem;
+    }
+    nav .logo p{
+        font-size: 1.6rem;
+    }
+}
+    </style>
+  </head>
+  <body>
+  <div class="nav-container">
+    <nav>
+        <div class="logo">
+            <p>LO</p>
+            <p>GO</p>
+        </div>
+        <div class="center"><span>Home</span><span>Blog</span><span>About</span><span>Contact</span></div>
+        <i class="fa-solid fa-bars"></i>
+        <div class="right"><button>Login</button></div>
+        
+    </nav>
+  </div>
+  </body>
+</html>
