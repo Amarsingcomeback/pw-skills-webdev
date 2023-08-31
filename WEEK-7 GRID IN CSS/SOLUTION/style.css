@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 90vh;
+     
+  }
+  .right{
+    background-color: yellow;
+  }
+  .right img{
+    width: 70%;
+    height: 100%;
+    
+  }
+  .left{
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+  .center button{
+    background-color: black;
+    color: wheat;
+    padding: 0.5rem 2rem;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    
+  }
+  .logo img{
+   width: 100px;
+  }
+  .center button:hover{
+    background-color: chocolate;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  /* 2 html css is here */
+  nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    align-items: center;
+    grid-template-rows: 50px;
+  }
+  nav ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  nav ul li{
+    list-style: none;
+    cursor: pointer;
+  }
+  nav ul li:hover{
+   color: chartreuse;
+  }
+  nav .btn{
+    justify-self: end;
+    align-self: center;
+  }
+.btn button{
+    padding: 0.5rem 2rem;
+    background-color: #c2596e;
+    border: none;
+    margin-right: 5px; 
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.btn button:hover{
+    background-color: chocolate;
+    color: antiquewhite;
+}
+.nav-icon{
+    display: none;
+}
+
+
+/* html 3 css adding servicess section */
+
+.services{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #242121;
+}
+.img-container{
+    justify-self: center;
+    text-align: center;
+}
+.img-container img{
+    width: 30%;
+}
+/* html 4 css */
+.onile-services{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background-color: white;
+  margin-top: 2%;
+  justify-content: space-between;
+  
+}
+.img-box img{
+  width: 100%;
+  border-radius: 30px 30px 0 0;
+  transition: all 0.5s ease-out;
+  
+
+}
+.img-box img:hover{
+  transform: scale(1.1,1.1);
+  opacity: 0.8;
+}
+
+.img-box{
+  width: 80%;
+  height: 50%;
+  /* padding: 20px 60px; */
+  border-radius: 30px;
+  margin-top: 20px;
+  justify-self: center;
+  cursor: pointer;
+}
+.on-text{
+  padding: 1px 1rem;
+}
+.border-rd{
+  border-radius: 0 0 30px 30px;
+}
+
+/* 5 no que css */
+.ft-main{
+  background-color: #1a1717;
+  margin-top: 2rem;
+}
+.footer-main{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 60vh;
+  align-items: center;
+  justify-content: space-around;
+  justify-items: center;
+}
+.foot-boox img{
+  width: 100%;
+}
+.foot-boox h1{
+  color: rgb(199, 206, 212);
+}
+.foot-boox ul{
+  color: #c53b57;
+}
+.foot-boox ul li{
+  list-style: none;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.foot-boox ul li:hover{
+  color: antiquewhite;
+}
+.ft{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  justify-content: center;
+  justify-items: center;
+  color: aliceblue;
+  background-color: #1a1717;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+  /* media query */
+  @media(max-width: 600px){
+    .container{
+      grid-template-columns: repeat(1,1fr);
+    }
+    /* html 2 code  nav responsive*/
+   nav{
+     grid-template-columns: repeat(2,1fr);
+     justify-content: space-between;
+     padding: 1px 2rem;
+   }
+   nav .nav-icon{
+    justify-self: end;
+    font-size: 1.5rem;
+   }
+   .nav-icon{
+    display: initial;
+   }
+   .btn{
+    display: none;
+   }
+   nav ul{
+    display: none;
+   }
+
+   /* html 4 responsive service section */
+   .services{
+    grid-template-columns: repeat(1,1fr);
+    grid-column: 5px;
+   }
+.onile-services{
+  grid-template-columns: repeat(1,1fr);
+}
+  /* que 5 code */
+ .footer-main{
+  grid-template-columns: repeat(1,1fr);
+ }
+  }
