@@ -1,21 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="output.css" />
+    <script src="https://kit.fontawesome.com/69755d1a1e.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <nav class="flex justify-between bg-stone-800 h-12 items-center text-slate-100">
-        <div class="flex h-full items-center">
-            <span class="font-bold">LIQUID</span>
-            <img class="w-10" src="https://cdn.pixabay.com/photo/2012/04/25/00/44/dolphin-41436_1280.png" alt="">
-        </div>
-        <div>
-            <button class="bg-orange-500 px-3 py-1 font-bold rounded-md">CREATE ACCOUNT</button>
-            <img src="" alt="">
+    <!-- nav bar -->
+    <nav class="h-12 md:h-14 bg-neutral-800 px-2">
+        <div class="flex w-full justify-between h-full">
+            <!-- left side -->
+            <div class="flex h-full items-center gap-4">
+                <div>
+                    <img src="./img/infinity img.png" alt="infinity logo" class="w-10" />
+                </div>
+                <div>
+                    <h1 class="font-bold text-white">LIQUID</h1>
+                </div>
+            </div>
+
+            <!-- right side -->
+            <div class="flex md:hidden">
+                <i class="fa-solid fa-bars text-white self-center text-lg"></i>
+            </div>
+
+            <!-- desktop screen -->
+             <div class="hidden md:flex items-center gap-5">
+                <div class="">
+                    <p class="font-semibold text-sm bg-pink-500 py-1 px-2 rounded-lg">CREATE ACCOUNT</p>
+                </div>
+                <div class="">
+                    <img src="./img/user.png" alt="user" class="w-9 rounded-full bg-slate-800">
+                </div>
+             </div>
         </div>
     </nav>
+
 </body>
+
 </html>

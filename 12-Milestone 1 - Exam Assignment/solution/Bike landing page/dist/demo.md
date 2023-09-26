@@ -1,0 +1,9 @@
+<i class="fa-solid fa-bars"></i>   //nav icon
+<i class="fa-solid fa-arrow-right"></i>  // right arrow
+<i class="fa-solid fa-arrow-left"></i>  // left arrow
+<i class="fa-brands fa-facebook-f"></i>  //facebook
+<i class="fa-brands fa-twitter"></i> /twiter
+<i class="fa-brands fa-instagram"></i>  // instagram
+<i class="fa-solid fa-angle-left"></i> angle left
+<i class="fa-solid fa-angle-right"></i> angle right
+<i class="fa-solid fa-angle-down"></i> Down arrow
