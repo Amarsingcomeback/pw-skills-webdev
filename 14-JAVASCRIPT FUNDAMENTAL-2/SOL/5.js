@@ -22,4 +22,5 @@ function createGuestList(guests) {
   
   const sentence = createGuestList(guestNames);
   console.log(sentence);
+  console.log(typeof sentence);
   

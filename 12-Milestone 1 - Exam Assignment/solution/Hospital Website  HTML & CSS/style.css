@@ -405,6 +405,7 @@
      margin: 0 auto;
      width: 75%;
      display: flex;
+     flex-wrap: wrap;
      background-color: #252B42;
      color: wheat;
      justify-content: space-between;
@@ -451,6 +452,7 @@
     margin: 0 auto;
     width: 75%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
  }
 .none ul li{
@@ -641,7 +643,9 @@ button:hover{
              margin: 0 auto;
              gap: 2rem;
              margin-top: 30rem;
+             margin-bottom: 40rem;
          }
+        
 
          .cardprice {
              width: 100%;
@@ -651,5 +655,12 @@ button:hover{
          .pricediscription .marge {
              /* justify-content: center; */
              text-align: center;
+         }
+         footer{
+            margin-top: 35rem;
+         }
+         .email-box{
+            text-align: center;
+            width: 100%;
          }
      }
