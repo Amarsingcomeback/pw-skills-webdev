@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Mode</title>
+  </head>
+  <body id="body">
+    <h1 id="h1">This is Light mode</h1>
+    <button onclick="togle()">Togle Theme</button>
+    <script>
+      const h1 = document.getElementById("h1");
+      const body = document.getElementById("body");
+      let x = 0;
+      function togle() {
+        x++;
+        if (x % 2) {
+          h1.innerText = "This is Dark mode";
+          body.style.backgroundColor = "black";
+          body.style.color = "white";
+        } else {
+          h1.innerText = "This is Light mode";
+          body.style.backgroundColor = "white";
+          body.style.color = "black";
+        }
+      }
+    </script>
+  </body>
+</html>
