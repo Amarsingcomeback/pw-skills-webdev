@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login & Logout</title>
+  </head>
+  <body>
+    <button id="Login">Login</button>
+    <button id="Logout">Logout</button>
+    <div class="result"></div>
+
+    <script>
+      const login = document.querySelector("#Login");
+      const logout = document.querySelector("#Logout");
+      const result = document.querySelector(".result");
+
+      login.addEventListener("click", () => {
+        alert("Login");
+        result.innerHTML = `<h1>User is logged In</h1>`;
+        localStorage.setItem("IsLogin", "true");
+      });
+
+      logout.addEventListener("click", () => {
+        alert("logout");
+        result.innerHTML = `<h1>User Has Not logged In</h1>`;
+        localStorage.removeItem("IsLogin");
+      });
+    </script>
+  </body>
+</html>
